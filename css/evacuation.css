@@ -1,0 +1,128 @@
+.medical__evacuation-content{
+    gap: 50px;
+}
+
+.medical__evacuation-first-image{
+}
+
+.medical__evacuation-second-image{
+    max-width: 70%;
+}
+
+.medical__evacuation-second1{
+    margin-top: 50px !important;
+}
+
+.medical__evacuation-first,.medical__evacuation-second{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.Evacuation__suptitle{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1D2A4D;
+}
+
+.helicopter__wrapper1{
+    max-width: 50% !important;
+}
+
+.medical__evacuation-width{
+    text-align: center;
+}
+
+
+.medical__evacuation-width{
+}
+
+.Evacuation__suptitle1{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 39px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    border-bottom-width: 4px ;
+    /* color: #1D2A4D; */
+    color: red;
+}
+
+.helicopter__wrapper{
+    max-width: 60%;
+}
+
+.list-wrapper{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .medical__evacuation-first, .medical__evacuation-second{
+        flex-direction: column;
+       justify-content: center;
+       margin: 0 auto;
+       width: 70%;
+    }
+    .medical__evacuation-second{
+        flex-direction: column-reverse;
+    }
+
+    .medical__evacuation-width{
+        display: none;
+    }
+
+    .helicopter__wrapper{
+        max-width: 500px;
+    }
+    .helicopter__wrapper1{
+        max-width: 100% !important;
+    }
+
+    .left-wrapper{
+        flex-wrap: wrap;
+    }
+    .short-ben__text{
+        font-size: smaller;
+    }
+    .short__ben-content{
+        max-height: 200px;
+        max-width: 200px;
+    }
+    .about_company-info{
+        max-width: 80%;
+    }
+    .about__text{
+        max-width: 80%;
+    }
+
+    .clocks{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px){
+    .short__benefits{
+        display: none !important;
+    }
+}
+
+@media (max-width: 375px){
+
+
+}
+
+@media (max-width: 325px){
+ 
+
+}
